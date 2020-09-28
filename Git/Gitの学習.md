@@ -61,3 +61,13 @@ git commit -v はエディタが立ち上がり、より詳細な内容を確認
 ```linux:ターミナル
 $ git status
 ```
+
+# 何を変更したのか確認する
+```linux:ターミナル
+$ git diff
+```
+
+ステージした後とコミットの差分
+```linux:ターミナル
+$ git diff --staged
+```
