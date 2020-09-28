@@ -88,3 +88,10 @@ $ git rm -r <ディレクトリ>
 
 $ git rm --cached <ファイル名> #ファイルを残したいとき
 ```
+# コマンドにエイリアスをつける
+```linux:ターミナル
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+$ git config --global alias.br branch
+$ git config --global alias.co checkout
+```
