@@ -63,6 +63,7 @@ $ git status
 ```
 
 # 何を変更したのか確認する
+addする前とワーキングツリーの差分
 ```linux:ターミナル
 $ git diff
 ```
@@ -70,4 +71,20 @@ $ git diff
 ステージした後とコミットの差分
 ```linux:ターミナル
 $ git diff --staged
+```
+
+# 変更履歴を確認する
+```linux:ターミナル
+$ git log 
+$ git log --oneline  #一行で表示する
+$ git log -p index.html #ファイルの変更差分を表示する
+$ git log -n <コミット数>　#表示するコミット数を制限する
+```
+
+# ファイルの削除を記録する
+```linux:ターミナル
+$ git rm <ファイル名>  #ファイルごと削除
+$ git rm -r <ディレクトリ>
+
+$ git rm --cached <ファイル名> #ファイルを残したいとき
 ```
