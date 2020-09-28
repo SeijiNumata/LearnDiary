@@ -95,3 +95,16 @@ $ git config --global alias.st status
 $ git config --global alias.br branch
 $ git config --global alias.co checkout
 ```
+
+# 管理しないファイルをGitの管理から外す
+.gitignoreファイルに指定する
+パスワードなどは危険なためGitの管理から外す
+
+# ファイルへの変更を取り消す
+```linux:ターミナル
+$ git checkout --<ファイル名>
+$ git checkout --<ディレクトリ名>
+```
+ステージされている情報をワークツリーと同じにしている
+
+お疲れ～～
